@@ -18,8 +18,8 @@ class ContactThree extends Component{
                         <div className="col-lg-6 order-2 order-lg-1">
                             <div className="section-title text-left mb--50">
                                 <h2 className="title">{this.props.contactTitle}</h2>
-                                <p className="description">I am available for freelance work. Connect with me via phone: <a href="tel:+8801923088574">01923 088574</a> or email:
-                                    <a href="mailto:admin@example.com"> admin@example.com</a> </p>
+                                <p className="description">Connect with me via email:
+                                    <a href="mailto:thanah.rav@gmail.com"> thanah.rav@gmail.com</a> or via LinkedIn.</p>
                             </div>
                             <div className="form-wrapper">
                                 <form>
@@ -71,7 +71,7 @@ class ContactThree extends Component{
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2">
                             <div className="thumbnail mb_md--30 mb_sm--30">
-                                <img src={`${this.props.contactImages}`} alt="trydo"/>
+                                <img src={`${this.props.contactImages}`} alt="Thanah"/>
                             </div>
                         </div>
                     </div>

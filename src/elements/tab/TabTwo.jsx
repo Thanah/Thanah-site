@@ -4,10 +4,10 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 class TabsTwo extends Component{
     render(){
         let 
-        tab1 = "Main skills",
-        tab2 = "Awards",
+        tab1 = "Overview",
+        tab2 = "Skills",
         tab3 = "Experience",
-        tab4 = "Education & Certification";
+        tab4 = "Education";
         const { tabStyle } = this.props
         return(
             <div>
@@ -20,40 +20,45 @@ class TabsTwo extends Component{
                                     <TabList  className={`${tabStyle}`}>
                                         <Tab>{tab1}</Tab>
                                         <Tab>{tab2}</Tab>
-                                        <Tab>{tab3}</Tab>
                                         <Tab>{tab4}</Tab>
                                     </TabList>
-
+                                    {/* Overview */}
                                     <TabPanel>
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    <a href="/service">User experience design <span> - UI/UX</span></a>
-                                                    Delight the user and make it work.
+                                                    <a href="/service">Back End <span> - Database/API</span></a>
+                                                    Implementation and optimization of system designs.
                                                 </li>
                                                 <li>
                                                     <a href="/service">Web and user interface design<span> - Development</span></a>
-                                                    Websites, web experiences, ...
+                                                    Front End design and implementation
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Interaction design <span> - Animation</span></a>
-                                                    I like to move it move it.
+                                                    <a href="/service">Project Management <span> - Collaboration</span></a>
+                                                    Industry standard task allocation and team coordination.
                                                 </li>
                                             </ul>
                                         </div>
                                     </TabPanel>
-
+                                    {/* Skills */}
                                     <TabPanel>
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Awwwards.com <span>- Winner</span></a> 2019 - 2020
+                                                   <a href="/service">Programming Languages <span></span></a>Java, Javascript, Python, C, SQL
                                                </li>
                                                <li>
-                                                   <a href="/service">CSS Design Awards <span>- Winner</span></a> 2017 - 2018
+                                                   <a href="/service">Frameworks and Tools<span></span></a>ReactJS, NodeJS, Sequelize
                                                </li>
                                                <li>
-                                                   <a href="/service">Design nominees <span>- site of the day</span></a> 2013- 2014
+                                                   <a href="/service">Security <span></span></a>Encryption/Decryption, Virtual Machines, Crpytography
+                                               </li>
+                                               <li>
+                                                   <a href="/service">OS <span></span></a>Windows, MacOS, Ubuntu, Kali
+                                               </li>
+                                               <li>
+                                                   <a href="/service">Security <span></span></a>Command line, Powershell, Security, Version Control (Git)
                                                </li>
                                            </ul>
                                        </div>
@@ -65,34 +70,12 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Sr. Front-end Engineer<span> - Google</span></a> 2018 - Current
+                                                   <a href="/service">University of Central Florida<span> - B.S.</span></a> Computer Science
                                                </li>
-                                               <li>
-                                                   <a href="/service">Front-end Engineer<span> - Microsoft</span></a> 2017 - 2018
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Software Engineer<span> - Alibaba </span></a> 2013- 2014
-                                               </li>
+                                               
                                            </ul>
                                        </div>
                                     </TabPanel>
-
-                                    <TabPanel>
-                                       <div className="single-tab-content">
-                                           <ul>
-                                               <li>
-                                                   <a href="/service">BSc In CSE<span> - ABC University, Los Angeles, CA</span></a> 2010
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Diploma in Computer Science<span> - Gamma Technical Institute</span></a> 2009
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
-                                               </li>
-                                           </ul>
-                                       </div>
-                                    </TabPanel>
-                                    
                                 </Tabs>
                             </div>
                         </div>
