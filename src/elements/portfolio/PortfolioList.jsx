@@ -6,16 +6,6 @@ const PortfolioListContent = [
         image: 'image-1',
         category: 'Capstone',
         title: 'Mapping Keats'
-    },
-    {
-        image: 'image-2',
-        category: 'Full Stack',
-        title: 'Togethr'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Contact Manager'
     }
 ]
 
