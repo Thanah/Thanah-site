@@ -8,13 +8,10 @@ import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/thanah-raveendran'},
 ]
 
-class PortfolioDetails extends Component{
+class MappingKeats extends Component{
     constructor () {
         super()
         this.state = {
@@ -54,9 +51,9 @@ class PortfolioDetails extends Component{
                             <div className="col-lg-12">
                                 <div className="portfolio-details">
                                     <div className="inner">
-                                        <h2>Trydo</h2>
+                                        <h2>Mapping Keats</h2>
                                         <p className="subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p>
+                                        <p>A web application that visualizes all 252 of John Keats’s letters in a variety of forms. Aims to create a resource that is equally accessible and informative that allows users to investigate individual letters in great detail based on verified data, with functionality ranging from viewing original letter images, transcriptions of letters and even geographical tracking of letter movements throughout the centuries.</p>
 
                                         <div className="portfolio-view-list d-flex flex-wrap">
                                             <div className="port-view">
@@ -167,4 +164,4 @@ class PortfolioDetails extends Component{
         )
     }
 }
-export default PortfolioDetails;
+export default MappingKeats;
