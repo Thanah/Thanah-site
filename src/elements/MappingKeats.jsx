@@ -84,16 +84,16 @@ class MappingKeats extends Component{
                                         </div>
                                         
                                         <div className="thumb mb--30">
-                                            <img src="assets/images/portfolio/mapping-keats-demo1.jpg" alt="Portfolio Images"/>
+                                            <img src="/assets/images/portfolio/mapping-keats-demo1.jpg" alt="Portfolio Images"/>
                                         </div>
                                         <div className="thumb mb--30">
-                                            <img src="assets/images/portfolio/mapping-keats-demo2.jpg" alt="Portfolio Images"/>
+                                            <img src="/assets/images/portfolio/mapping-keats-demo2.jpg" alt="Portfolio Images"/>
                                         </div>
                                         <div className="thumb mb--30">
-                                            <img src="assets/images/portfolio/mapping-keats-demo3.jpg" alt="Portfolio Images"/>
+                                            <img src="/assets/images/portfolio/mapping-keats-demo3.jpg" alt="Portfolio Images"/>
                                         </div>
                                         <div className="thumb mb--30">
-                                            <img src="assets/images/portfolio/mapping-keats-demo4.jpg" alt="Portfolio Images"/>
+                                            <img src="/assets/images/portfolio/mapping-keats-demo4.jpg" alt="Portfolio Images"/>
                                         </div>
                                     </div>
                                 </div>
