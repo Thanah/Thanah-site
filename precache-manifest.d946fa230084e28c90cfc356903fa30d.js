@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3100660a330ab1194023d19420b2ebce",
+    "revision": "392bbdf3d40eb43ffbc6b8fdbc0f1131",
     "url": "/thanah/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/thanah/static/css/2.228496be.chunk.css"
   },
   {
-    "revision": "e3c6f4e48b6e2468d097",
+    "revision": "c80158126ccac5d050d3",
     "url": "/thanah/static/css/main.9dc12c1b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/thanah/static/js/3.04ed1a91.chunk.js"
   },
   {
-    "revision": "e3c6f4e48b6e2468d097",
-    "url": "/thanah/static/js/main.8ae7b594.chunk.js"
+    "revision": "c80158126ccac5d050d3",
+    "url": "/thanah/static/js/main.1f44e6d4.chunk.js"
   },
   {
     "revision": "0e38fdfd6cc396ca5cac",
