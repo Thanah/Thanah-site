@@ -1,6 +1,6 @@
 {
   "homepage": "http://thanah.github.io/thanah",
-  "name": "trydo",
+  "name": "thanah",
   "version": "0.1.0",
   "private": true,
   "basename": "/",
@@ -86,7 +86,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
