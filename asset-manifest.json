@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.9dc12c1b.chunk.css",
-    "main.js": "./static/js/main.71b8fc57.chunk.js",
-    "main.js.map": "./static/js/main.71b8fc57.chunk.js.map",
-    "runtime~main.js": "./static/js/runtime~main.779d27a2.js",
-    "runtime~main.js.map": "./static/js/runtime~main.779d27a2.js.map",
-    "static/css/2.61eb9e86.chunk.css": "./static/css/2.61eb9e86.chunk.css",
-    "static/js/2.972dfb9e.chunk.js": "./static/js/2.972dfb9e.chunk.js",
-    "static/js/2.972dfb9e.chunk.js.map": "./static/js/2.972dfb9e.chunk.js.map",
-    "static/js/3.04ed1a91.chunk.js": "./static/js/3.04ed1a91.chunk.js",
-    "static/js/3.04ed1a91.chunk.js.map": "./static/js/3.04ed1a91.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.d1c787675e25ade3ab3506b203d3cbb5.js": "./precache-manifest.d1c787675e25ade3ab3506b203d3cbb5.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/2.61eb9e86.chunk.css.map": "./static/css/2.61eb9e86.chunk.css.map",
-    "static/css/main.9dc12c1b.chunk.css.map": "./static/css/main.9dc12c1b.chunk.css.map",
-    "static/media/index.scss": "./static/media/slick.f97e3bbf.svg"
+    "main.css": "/thanah/static/css/main.9dc12c1b.chunk.css",
+    "main.js": "/thanah/static/js/main.73d8e6ea.chunk.js",
+    "main.js.map": "/thanah/static/js/main.73d8e6ea.chunk.js.map",
+    "runtime~main.js": "/thanah/static/js/runtime~main.35c47273.js",
+    "runtime~main.js.map": "/thanah/static/js/runtime~main.35c47273.js.map",
+    "static/css/2.228496be.chunk.css": "/thanah/static/css/2.228496be.chunk.css",
+    "static/js/2.972dfb9e.chunk.js": "/thanah/static/js/2.972dfb9e.chunk.js",
+    "static/js/2.972dfb9e.chunk.js.map": "/thanah/static/js/2.972dfb9e.chunk.js.map",
+    "static/js/3.04ed1a91.chunk.js": "/thanah/static/js/3.04ed1a91.chunk.js",
+    "static/js/3.04ed1a91.chunk.js.map": "/thanah/static/js/3.04ed1a91.chunk.js.map",
+    "index.html": "/thanah/index.html",
+    "precache-manifest.c6d5968a42f5ee2607147065669be973.js": "/thanah/precache-manifest.c6d5968a42f5ee2607147065669be973.js",
+    "service-worker.js": "/thanah/service-worker.js",
+    "static/css/2.228496be.chunk.css.map": "/thanah/static/css/2.228496be.chunk.css.map",
+    "static/css/main.9dc12c1b.chunk.css.map": "/thanah/static/css/main.9dc12c1b.chunk.css.map",
+    "static/media/index.scss": "/thanah/static/media/slick.f97e3bbf.svg"
   }
 }
