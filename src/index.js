@@ -39,7 +39,7 @@ import ContactForm from "./blocks/ContactForm";
 import GoogleMap from "./blocks/GoogleMap";
 import Columns from "./blocks/Columns";
 import PricingTable from "./blocks/PricingTable";
-import { BrowserRouter, Switch, Route  } from 'react-router-dom';
+import { HashRouter, Switch, Route  } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 class Root extends Component{
