@@ -1,8 +1,8 @@
 {
+  "homepage": "http://thanah.github.io/thanah",
   "name": "trydo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Thanah.github.io/thanah",
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.4.3",

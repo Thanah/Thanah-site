@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/thanah/static/css/main.9dc12c1b.chunk.css",
+    "main.js": "/thanah/static/js/main.5637f9c4.chunk.js",
+    "main.js.map": "/thanah/static/js/main.5637f9c4.chunk.js.map",
+    "runtime~main.js": "/thanah/static/js/runtime~main.35c47273.js",
+    "runtime~main.js.map": "/thanah/static/js/runtime~main.35c47273.js.map",
+    "static/css/2.228496be.chunk.css": "/thanah/static/css/2.228496be.chunk.css",
+    "static/js/2.972dfb9e.chunk.js": "/thanah/static/js/2.972dfb9e.chunk.js",
+    "static/js/2.972dfb9e.chunk.js.map": "/thanah/static/js/2.972dfb9e.chunk.js.map",
+    "static/js/3.04ed1a91.chunk.js": "/thanah/static/js/3.04ed1a91.chunk.js",
+    "static/js/3.04ed1a91.chunk.js.map": "/thanah/static/js/3.04ed1a91.chunk.js.map",
+    "index.html": "/thanah/index.html",
+    "precache-manifest.f9663758872a73aa6cec908dfb1e9fdd.js": "/thanah/precache-manifest.f9663758872a73aa6cec908dfb1e9fdd.js",
+    "service-worker.js": "/thanah/service-worker.js",
+    "static/css/2.228496be.chunk.css.map": "/thanah/static/css/2.228496be.chunk.css.map",
+    "static/css/main.9dc12c1b.chunk.css.map": "/thanah/static/css/main.9dc12c1b.chunk.css.map",
+    "static/media/index.scss": "/thanah/static/media/slick.f97e3bbf.svg"
+  }
+}
