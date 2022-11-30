@@ -35,7 +35,6 @@ class Footer extends Component{
                                                 <ul className="ft-link">
                                                     <li><a href="/portfolio">Work</a></li>
                                                     <li><a href="/about">About</a></li>
-                                                    <li><a href="/contact">Let's Talk</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -43,10 +42,9 @@ class Footer extends Component{
                                         {/* Start Single Widget  */}
                                         <div className="col-lg-6 col-sm-6 col-12 mt_mobile--30">
                                             <div className="footer-link">
-                                                <h4>Say Hello</h4>
+                                                <h4>Contact Me</h4>
                                                 <ul className="ft-link">
-                                                    <li><a href="mailto:admin@example.com">admin@example.com</a></li>
-                                                    <li><a href="mailto:hr@example.com">hr@example.com</a></li>
+                                                    <li><a href="mailto:admin@example.com">thanah.r@gmail.com</a></li>
                                                 </ul>
 
                                                 <div className="social-share-inner">
@@ -62,7 +60,7 @@ class Footer extends Component{
 
                                         <div className="col-lg-12">
                                             <div className="copyright-text">
-                                                <p>Copyright © 2022 Rainbow-Themes. All Rights Reserved.</p>
+                                                <p>Copyright © 2022 All Rights Reserved.</p>
                                             </div>
                                         </div>
                                     </div>

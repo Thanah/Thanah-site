@@ -5,10 +5,10 @@ import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
-import Footer from "../component/footer/Footer";
+import Footer from "../component/footer/FooterTwo";
 
 const SocialShare = [
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/thanah-raveendran'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/thanah-raveendran'},
 ]
 
 class MappingKeats extends Component{
@@ -27,7 +27,7 @@ class MappingKeats extends Component{
             <React.Fragment>
                 <PageHelmet pageTitle='Mapping Keats' />
 
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
+                <Header headertransparent="header--transparent" colorblack="color--black" logo="symbol-dark" logoname="logo.png" />
                 
                 {/* Start Breadcrump Area */}
                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--4"  data-black-overlay="7">
@@ -52,15 +52,11 @@ class MappingKeats extends Component{
                                 <div className="portfolio-details">
                                     <div className="inner">
                                         <h2>Mapping Keats</h2>
-                                        <p className="subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                                        <p>A web application that visualizes all 252 of John Keats’s letters in a variety of forms. Aims to create a resource that is equally accessible and informative that allows users to investigate individual letters in great detail based on verified data, with functionality ranging from viewing original letter images, transcriptions of letters and even geographical tracking of letter movements throughout the centuries.</p>
+                                        <p className="subtitle">Full Stack Mapping Visualization Tool</p>
+                                        <p>A web application that visualizes all 252 of John Keats’s letters in a variety of forms. Aims to create a resource that is equally accessible and informative that allows users to investigate individual letters in great detail based on verified data, with functionality ranging from viewing original letter images, transcriptions of letters and even geographical tracking of letter movements throughout the centuries. Below is a video demo of the application at work.</p>
 
                                         <div className="portfolio-view-list d-flex flex-wrap">
-                                            <div className="port-view">
-                                                <span>Branch</span>
-                                                <h4>Ability</h4>
-                                            </div>
-
+                                            
                                             <div className="port-view">
                                                 <span>Project Types</span>
                                                 <h4>Website</h4>
@@ -68,7 +64,7 @@ class MappingKeats extends Component{
 
                                             <div className="port-view">
                                                 <span>Program</span>
-                                                <h4>View Project</h4>
+                                                <h4>UCF CS Capstone</h4>
                                             </div>
                                         </div>
 
@@ -82,17 +78,22 @@ class MappingKeats extends Component{
                                     </div>
                                     <div className="portfolio-thumb-inner">
                                         <div className="thumb position-relative mb--30">
-                                            <img src="/assets/images/portfolio/portfolio-big-03.jpg" alt="Portfolio Images"/>
-                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
+                                            <img src="/assets/images/portfolio/mapping-keats-video.jpg" alt="Portfolio Images"/>
+                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ToXFbM3Hfto' onClose={() => this.setState({isOpen: false})} />
                                             <button className="video-popup position-top-center" onClick={this.openModal}><span className="play-icon"></span></button>
                                         </div>
                                         
                                         <div className="thumb mb--30">
-                                            <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
+                                            <img src="/assets/images/portfolio/mapping-keats-demo1.jpg" alt="Portfolio Images"/>
                                         </div>
-
-                                        <div className="thumb">
-                                            <img src="/assets/images/portfolio/portfolio-big-01.jpg" alt="Portfolio Images"/>
+                                        <div className="thumb mb--30">
+                                            <img src="/assets/images/portfolio/mapping-keats-demo2.jpg" alt="Portfolio Images"/>
+                                        </div>
+                                        <div className="thumb mb--30">
+                                            <img src="/assets/images/portfolio/mapping-keats-demo3.jpg" alt="Portfolio Images"/>
+                                        </div>
+                                        <div className="thumb mb--30">
+                                            <img src="/assets/images/portfolio/mapping-keats-demo4.jpg" alt="Portfolio Images"/>
                                         </div>
                                     </div>
                                 </div>
@@ -103,50 +104,7 @@ class MappingKeats extends Component{
                 {/* End Portfolio Details */}
 
                 {/* Start Related Work */}
-                <div className="portfolio-related-work pb--120 bg_color--1">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="section-title text-center">
-                                    <span className="theme-color font--18 fontWeight600">Related Work</span>
-                                    <h2>Our More Projects</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row mt--10">
-                            {/* Start Single Portfolio */}
-                            <div className="col-lg-6 col-md-6 col-12">
-                                <div className="related-work text-center mt--30">
-                                    <div className="thumb">
-                                        <a href="/portfolio-details">
-                                            <img src="/assets/images/portfolio/related-image-01.jpg" alt="Portfolio-images"/>
-                                        </a>
-                                    </div>
-                                    <div className="inner">
-                                        <h4><a href="/portfolio-details">Digital Analysis</a></h4>
-                                        <span className="category">Technique</span>
-                                    </div>
-                                </div>
-                            </div>
-                             {/* End Single Portfolio */}
-                            {/* Start Single Portfolio */}
-                            <div className="col-lg-6 col-md-6 col-12">
-                                <div className="related-work text-center mt--30">
-                                    <div className="thumb">
-                                        <a href="/portfolio-details">
-                                            <img src="/assets/images/portfolio/related-image-02.jpg" alt="Portfolio-images"/>
-                                        </a>
-                                    </div>
-                                    <div className="inner">
-                                        <h4><a href="/portfolio-details">Plan Management</a></h4>
-                                        <span className="category">PLANNING</span>
-                                    </div>
-                                </div>
-                            </div>
-                             {/* End Single Portfolio */}
-                        </div>
-                    </div>
-                </div>
+                
                 {/* End Related Work */}
 
                 {/* Start Back To Top */}

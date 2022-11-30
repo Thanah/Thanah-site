@@ -102,7 +102,7 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                         <h2 className="title">My Latest Projects</h2>
-                                        <p>Preview of some of the full stack applications Thanah has developed as part of various engineering teams(note: some of these are no longer being hosted).</p>
+                                        <p>Preview of some of the full stack applications Thanah has developed as part of various engineering teams(note: some of these are no longer being hosted). <br></br> <br></br> Click Explore to view more details.</p>
                                     </div>
                                 </div>
                             </div>

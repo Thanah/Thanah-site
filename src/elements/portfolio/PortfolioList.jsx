@@ -25,13 +25,12 @@ class PortfolioList extends Component{
                             <div className="content">
                                 <div className="inner">
                                     <p>{value.category}</p>
-                                    <h4><a href="https://www.youtube.com/watch?v=vUgI35VPBtE">{value.title}</a></h4>
+                                    <h4><a href="/mapping-keats">{value.title}</a></h4>
                                     <div className="portfolio-button">
-                                        <a className="rn-btn" href="https://www.youtube.com/watch?v=vUgI35VPBtE">Explore</a>
+                                        <a className="rn-btn" href="/mapping-keats">Explore</a>
                                     </div>
                                 </div>
                             </div>
-                            <Link className="link-overlay" to="/portfolio-details"></Link>
                         </div>
                     </div>
                 ))}

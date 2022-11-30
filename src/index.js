@@ -11,7 +11,7 @@ import PageScrollTop from './component/PageScrollTop';
 import Demo from './page-demo/Demo';
 
 // Dark Home Layout 
-import DarkPortfolioLanding from './dark/PortfolioLanding';
+import Landing from './dark/PortfolioLanding';
 
 // Element Layout
 import Service from "./elements/Service";
@@ -19,6 +19,7 @@ import ServiceDetails from "./elements/ServiceDetails";
 import About from "./elements/About";
 import Contact from "./elements/Contact";
 import PortfolioDetails from "./elements/PortfolioDetails";
+import MappingKeats from "./elements/MappingKeats";
 import Blog from "./elements/Blog";
 import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
@@ -47,7 +48,7 @@ class Root extends Component{
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <Switch>
-                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkPortfolioLanding}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Landing}/>
 
                         {/* Element Layot */}
                         <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
