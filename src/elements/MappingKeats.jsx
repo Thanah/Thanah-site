@@ -78,22 +78,22 @@ class MappingKeats extends Component{
                                     </div>
                                     <div className="portfolio-thumb-inner">
                                         <div className="thumb position-relative mb--30">
-                                            <img src="assets/images/portfolio/mapping-keats-video.jpg" alt="Portfolio Images"/>
+                                            <img src="assets/images/portfolio/mapping-keats-video.jpg" alt="Video Demo"/>
                                             <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ToXFbM3Hfto' onClose={() => this.setState({isOpen: false})} />
                                             <button className="video-popup position-top-center" onClick={this.openModal}><span className="play-icon"></span></button>
                                         </div>
                                         
                                         <div className="thumb mb--30">
-                                            <img src="assets/images/portfolio/mapping-keats-demo1.jpg" alt="Portfolio Images"/>
+                                            <img src="assets/images/portfolio/mapping-keats-demo1.jpg" alt="Georectification"/>
                                         </div>
                                         <div className="thumb mb--30">
-                                            <img src="assets/images/portfolio/mapping-keats-demo2.jpg" alt="Portfolio Images"/>
+                                            <img src="assets/images/portfolio/mapping-keats-demo2.jpg" alt="Expanded Details"/>
                                         </div>
                                         <div className="thumb mb--30">
-                                            <img src="assets/images/portfolio/mapping-keats-demo3.jpg" alt="Portfolio Images"/>
+                                            <img src="assets/images/portfolio/mapping-keats-demo3.jpg" alt="Admin Letter CRUD Operations"/>
                                         </div>
                                         <div className="thumb mb--30">
-                                            <img src="assets/images/portfolio/mapping-keats-demo4.jpg" alt="Portfolio Images"/>
+                                            <img src="assets/images/portfolio/mapping-keats-demo4.jpg" alt="Admin User CRUD Operations"/>
                                         </div>
                                     </div>
                                 </div>
