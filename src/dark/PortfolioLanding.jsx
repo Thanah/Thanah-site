@@ -22,7 +22,7 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'Thanah is currently a student majoring in Computer Sciences at the University of Central Florida, set to graduate in the Fall of 2022. Through his coursework, he has gained experience in algorithm design, full stack application development, and system security. ';
+        description = 'I am currently a student majoring in Computer Sciences at the University of Central Florida, set to graduate in the Fall of 2022. Through my coursework, I have gained experience in algorithm design, full stack application development, and system security. ';
     const PostList = BlogContent.slice(0 , 3);
     return (
         <div className="active-dark">
@@ -47,7 +47,7 @@ const PortfolioLanding = () => {
                                                 <span> Full Stack Developer.</span>
                                             </TextLoop>{" "}
                                             </h1>
-                                            <h2>based in the FL, USA.</h2>
+                                            <h2>based in Orlando, FL.</h2>
                                             {value.description ? <p className="description">{value.description}</p> : ''}
                                             {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
                                         </div>
@@ -102,7 +102,7 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                         <h2 className="title">My Latest Projects</h2>
-                                        <p>Preview of some of the full stack applications Thanah has developed as part of various engineering teams(note: some of these are no longer being hosted). <br></br> <br></br> Click Explore to view more details.</p>
+                                        <p>Preview of some of the full stack applications I have developed as part of various engineering teams(note: some of these are no longer being hosted). <br></br> <br></br> Click Explore to view more details.</p>
                                     </div>
                                 </div>
                             </div>
