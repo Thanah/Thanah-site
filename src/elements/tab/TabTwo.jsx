@@ -36,7 +36,7 @@ class TabsTwo extends Component{
                                                 </li>
                                                 <li>
                                                     <a href="/service">Project Management <span> - Collaboration</span></a>
-                                                    Industry standard task allocation and team coordination.
+                                                    Industry standard task allocation and team coordination in Agile.
                                                 </li>
                                             </ul>
                                         </div>
